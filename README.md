@@ -1,0 +1,1 @@
+# test-webpack-module-b
