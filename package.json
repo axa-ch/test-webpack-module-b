@@ -1,0 +1,23 @@
+{
+  "name": "test-webpack-module-b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axa-ch/test-webpack-module-b.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axa-ch/test-webpack-module-b/issues"
+  },
+  "homepage": "https://github.com/axa-ch/test-webpack-module-b#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
