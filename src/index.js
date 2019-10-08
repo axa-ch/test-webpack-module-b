@@ -1,4 +1,5 @@
 import WebpackC_2 from 'test-webpack-module-c';
+import '@axa-ch/button';
 
 class WebpackB {
 
