@@ -1,5 +1,6 @@
 import WebpackC_2 from 'test-webpack-module-c';
 import '@axa-ch/button';
+import 'react-intl';
 
 class WebpackB {
 
