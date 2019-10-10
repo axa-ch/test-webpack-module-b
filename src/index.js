@@ -1,13 +1,14 @@
-import WebpackC_2 from 'test-webpack-module-c';
-import '@axa-ch/button';
-import 'react-intl';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import * as serviceWorker from './serviceWorker';
 
-class WebpackB {
+ReactDOM.render(
+        <App />
+, document.getElementById('root'));
 
-    constructor() {
-        new WebpackC_2();
-        console.log("In Class");
-    }
-}
-
-export default WebpackB;
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();
