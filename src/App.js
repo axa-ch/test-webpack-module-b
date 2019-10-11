@@ -30,7 +30,7 @@ class App extends React.Component {
   render() {
     const AXAButtonRadio = createAXARadioReact(createElement);
     return (
-      <React.Fragment>
+      <>
         <AXAButtonRadio name="locale"
           label="Deutsch"
           value="de-CH"
@@ -49,7 +49,7 @@ class App extends React.Component {
             <p><FormattedMessage id="homepage.message"/></p>
           </div>
         </IntlProvider>
-      </React.Fragment>
+      </>
     );
   }
 }
