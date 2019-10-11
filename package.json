@@ -1,6 +1,6 @@
 {
   "name": "test-webpack-module-b",
-  "version": "2.7.1",
+  "version": "2.7.2",
   "description": "",
   "scripts": {
     "start": "react-scripts start",
